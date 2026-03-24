@@ -1,41 +1,85 @@
-# Prerequisites
-*.d
+# -----------------------
+# Build results
+# -----------------------
+bin/
+obj/
+out/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# -----------------------
+# Visual Studio files
+# -----------------------
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# Precompiled Headers
-*.gch
-*.pch
+# -----------------------
+# Rider / JetBrains
+# -----------------------
+.idea/
+*.sln.iml
 
-# Linker files
-*.ilk
+# -----------------------
+# VS Code
+# -----------------------
+.vscode/
 
-# Debugger Files
-*.pdb
+# -----------------------
+# Logs
+# -----------------------
+*.log
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# -----------------------
+# OS files
+# -----------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
 
-# Fortran module files
-*.mod
-*.smod
+# -----------------------
+# NuGet
+# -----------------------
+*.nupkg
+*.snupkg
+packages/
+# Uncomment if using PackageReference (recommended to keep packages restored automatically)
+#!packages/
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# NuGet config (optional - keep if you have custom feeds)
+# nuget.config
 
-# Executables
-*.exe
-*.out
-*.app
+# -----------------------
+# Environment / secrets
+# -----------------------
+.env
+.env.*
+appsettings.Development.json
+secrets.json
 
-# debug information files
-*.dwo
+# -----------------------
+# Publish output
+# -----------------------
+publish/
+*.publishproj
+
+# -----------------------
+# Resharper
+# -----------------------
+_ReSharper*/
+*.DotSettings.user
+
+# -----------------------
+# Test results
+# -----------------------
+TestResults/
+*.trx
+*.coverage
+
+# -----------------------
+# Misc
+# -----------------------
+*.tmp
+*.temp
+*.bak
+*.old
